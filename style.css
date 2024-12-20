@@ -1,0 +1,115 @@
+ body {
+     background-image: url("https://img.freepik.com/premium-vector/brown-brick-wall-texture-wall-bricks_146714-3037.jpg");
+     margin: auto;
+ }
+
+ h1 {
+     text-align: center;
+     font-style: oblique;
+     font-family: Andale Mono, monospace;
+     color: blue;
+     font-size: xx-large;
+     background-color: wheat;
+     margin: auto;
+
+ }
+
+ h2 {
+     color: skyblue;
+     background-color: #fff;
+     display: inline-flex;
+     font-size: 50px;
+     border-color: green;
+     border: solid;
+     height: 20%;
+     width: 200px;
+     align-items: center;
+     justify-content: center;
+     margin: auto;
+ }
+
+
+
+ p {
+     font-style: initial;
+     font-family: fantasy;
+     color: blue;
+     background-color: wheat;
+
+ }
+
+ #game-container {
+     position: relative;
+     width: 600px;
+     height: 600px;
+     border: solid black;
+     display: flex;
+     justify-items: center;
+     justify-self: center;
+     background-image: url("https://img.freepik.com/premium-vector/pixel-art-game-background-grass-sky-clouds_210544-60.jpg?w=740");
+     background-size: cover;
+     flex-wrap: wrap;
+     overflow: hidden;
+     margin: auto;
+ }
+
+
+ #start {
+     background-color: white;
+     color: blue;
+     cursor: pointer;
+     font-size: 16px;
+     margin: auto;
+ }
+
+
+ #player {
+     background-image: url("https://clipart-library.com/img1/1312875.jpg");
+     height: 50px;
+     width: 60px;
+     left: 50%;
+     bottom: 193px;
+     position: absolute;
+     background-size: 100% 100%;
+     margin: auto;
+ }
+
+ #score {
+     display: flex;
+     align-content: center;
+     flex-direction: row-reverse;
+     justify-content: center;
+     background-color: white;
+     border: solid;
+     position: absolute;
+     top: 55px;
+     right: 400px;
+     font-size: x-large;
+     border-top: 1px;
+     color: skyblue;
+     margin: 20px;
+     margin: auto;
+
+ }
+
+ .falling-blocks {
+     position: absolute;
+     top: 0;
+     width: 40px;
+     height: 20px;
+     background-color: red;
+     margin: auto;
+ }
+
+ .box {
+     color: white;
+     position: relative;
+     display: flex;
+     border: solid;
+     border-color: green;
+     border-top: 1px;
+     justify-content: center;
+     background-color: white;
+     color: skyblue;
+     font-size: large;
+ }
